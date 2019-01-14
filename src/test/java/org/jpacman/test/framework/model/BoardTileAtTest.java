@@ -30,7 +30,7 @@ public class BoardTileAtTest {
 	private static final int WIDTH = 10;
 	private static final int HEIGHT = 20;
 
-	public BoardTileAtTest(int x, int y, Direction d, int nx, int ny) {
+	public BoardTileAtTest(final int x, final int y, final Direction d, final int nx, final int ny) {
 		startx = x;
 		starty = y;
 		dir = d;
