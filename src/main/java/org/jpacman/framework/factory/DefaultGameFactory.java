@@ -13,7 +13,7 @@ import org.jpacman.framework.model.Wall;
  * 
  * @author Arie van Deursen, TU Delft, Jan 22, 2012
  */
-public class DefaultGameFactory implements IGameFactory {
+public final class DefaultGameFactory implements IGameFactory {
 
 	private transient Game theGame;
 	
