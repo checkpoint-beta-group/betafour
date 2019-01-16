@@ -247,7 +247,7 @@ public class BoardView extends JPanel {
         }
         return img;
     }
-	
+
     /**
      * Increment the animation counter, and redisplay,
      * so that the next animation becomes visible.
