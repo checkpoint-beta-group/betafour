@@ -27,7 +27,13 @@ public class BoardTileAtTest {
 	private int nextx, nexty;
 	private Board board;
 
+	/**
+	 *Default Width.
+	 */
 	private static final int WIDTH = 10;
+	/**
+	 * Default Height.
+	 */
 	private static final int HEIGHT = 20;
 
 	private static final int NEXTY = 3;
