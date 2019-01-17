@@ -50,7 +50,7 @@ public class BoardTileAtTest {
 	}
 
 	@Parameters
-	public static Collection<Object[]> data() {		
+	public static Collection<Object[]> data() {
 		Object[][] values = new Object[][] {
 				// x-axis boundaries, y random inpoints
 				// left boundary
