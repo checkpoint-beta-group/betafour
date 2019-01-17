@@ -62,8 +62,8 @@ public class BoardTileAtTest {
 				// worm holes
 				{0, 2, Direction.LEFT, WIDTH - 1, 2 },
 				{WIDTH - 1, 2, Direction.RIGHT, 0, 2 },
-				{ 2, 0, Direction.UP, 2, HEIGHT - 1 },
-				{ 2, HEIGHT - 1, Direction.DOWN, 2, 0 } };
+				{2, 0, Direction.UP, 2, HEIGHT - 1 },
+				{2, HEIGHT - 1, Direction.DOWN, 2, 0 } };
 		return Arrays.asList(values);
 	}
 
