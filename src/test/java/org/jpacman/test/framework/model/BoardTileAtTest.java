@@ -32,7 +32,8 @@ public class BoardTileAtTest {
 
 	private static final int NEXTY = 3;
 
-	public BoardTileAtTest(final int x, final int y, final Direction d, final int nx, final int ny) {
+	public BoardTileAtTest(final int x, final int y, final Direction d,
+			final int nx, final int ny) {
 		startx = x;
 		starty = y;
 		dir = d;
