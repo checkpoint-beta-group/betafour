@@ -30,6 +30,8 @@ public class BoardTileAtTest {
 	private static final int WIDTH = 10;
 	private static final int HEIGHT = 20;
 
+	private static final int NEXTY = 3;
+
 	public BoardTileAtTest(final int x, final int y, final Direction d, final int nx, final int ny) {
 		startx = x;
 		starty = y;
@@ -48,14 +50,14 @@ public class BoardTileAtTest {
 	}
 
 	@Parameters
-	public static Collection<Object[]> data() {
+	public static Collection<Object[]> data() {		
 		Object[][] values = new Object[][] {
 				// x-axis boundaries, y random inpoints
 				// left boundary
-				{ 2, 2, Direction.UP, 2, 1 },
-				{ 2, 2, Direction.DOWN, 2, 3 },
-				{ 2, 2, Direction.LEFT, 1, 2 },
-				{ 2, 2, Direction.RIGHT, 3, 2 },
+				{2, 2, Direction.UP, 2, 1 },
+				{2, 2, Direction.DOWN, 2, NEXTY },
+				{2, 2, Direction.LEFT, 1, 2 },
+				{2, 2, Direction.RIGHT, 3, 2 },
 				// worm holes
 				{ 0, 2, Direction.LEFT, WIDTH - 1, 2 },
 				{ WIDTH - 1, 2, Direction.RIGHT, 0, 2 },
