@@ -38,14 +38,14 @@ public class Player extends Sprite {
 	public void die() {
 		alive = false;
 	}
-	
+
 	/**
 	 * @return True iff the player is still alive.
 	 */
 	public boolean isAlive() {
 		return alive;
 	}
-	
+
 	/**
 	 * @return That this sprite is a player.
 	 */
