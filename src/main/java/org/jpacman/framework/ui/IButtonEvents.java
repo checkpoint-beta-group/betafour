@@ -7,8 +7,8 @@ package org.jpacman.framework.ui;
  */
 
 public interface IButtonEvents {
-	
-	/**
+
+    /**
 	 * Start the game.
 	 */
 	void start();
